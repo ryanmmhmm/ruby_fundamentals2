@@ -1,5 +1,12 @@
 ## Exercise 7 -- W1D3
 
+def printHash(in_hash)
+	in_hash.each do | key, value |
+		puts "#{key}: #{value} students"
+	end
+end
+
+
 students = {
 	cohort1: 34,
 	cohort2: 42,
@@ -7,3 +14,5 @@ students = {
 }
 
 
+# Step 1
+printHash(students)
