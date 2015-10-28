@@ -16,3 +16,7 @@ students = {
 
 # Step 1
 printHash(students)
+
+
+# Step 2
+puts students.keys
