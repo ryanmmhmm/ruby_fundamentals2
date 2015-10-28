@@ -19,4 +19,7 @@ printHash(students)
 
 
 # Step 2
+students[:cohort4] = 43
+
+# Step 3
 puts students.keys
