@@ -25,5 +25,10 @@ check_item = 'bananas'
 check = grocery_list.include?(check_item) == true ? "You need to pick up #{check_item}" : "You don't need to pick up #{check_item} today."
 puts check
 
+
 # Step 5
 puts grocery_list[1] if grocery_list.length >= 2  # dislay the second item
+
+
+# Step 6
+starList(grocery_list.sort)
