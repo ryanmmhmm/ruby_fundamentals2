@@ -18,3 +18,13 @@ starList(grocery_list)
 
 # Step 3
 puts "There are #{grocery_list.length} item(s) on your list."
+
+
+# Step 4
+check_item = 'bananas'
+
+#why doesn't this ternary statement work?
+check = grocery_list.include?(check_item) == true ? "You need to pick up #{check_item}" : "You don't need to pick up #{check_item} today."
+puts check
+# if grocery_list.include?(check_item) == true
+# 		puts ""
