@@ -32,3 +32,8 @@ students.each do | name, num_students |
 end
 
 printHash(students)
+
+
+# Step 5
+students.delete(:cohort2)
+printHash(students)
