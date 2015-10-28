@@ -35,4 +35,5 @@ starList(grocery_list.sort)
 
 # Step 7
 remove_item = 'salmon'
-puts grocery_list.slice!(grocery_list.index(remove_item))
+grocery_list.slice!(grocery_list.index(remove_item))
+starList(grocery_list)
